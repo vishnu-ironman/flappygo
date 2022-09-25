@@ -2,7 +2,7 @@ var bg,birdst,bird,birdm;
 var start,tittle;
 var gamestate= "start";
 var obj,o,objGroup;
-var obja,oa,objGroupa;
+var obja,oa,objGroupa;    
 var score ;
 var invi,invigr;
 var fontRegular
