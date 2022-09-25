@@ -103,9 +103,15 @@ function draw() {
     textFont(fontRegular);
     textSize(50);
     fill("white")
+    
+    
    
    
     text("score: "+score,40,40)
+    
+    spawn();
+    spa();
+    iaminvisible();
     if(invigr.isTouching(bird)){
       score=score+1;
    }
