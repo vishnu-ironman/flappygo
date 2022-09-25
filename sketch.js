@@ -119,7 +119,7 @@ function draw() {
 
 
     if(keyDown("space") ) {
-      bird.velocityY = -13;
+      bird.velocityY = -12;
       sound.play();
     }
 
@@ -163,7 +163,7 @@ function draw() {
 
 function spawn(){
 
-  if(frameCount % 45=== 0){
+  if(frameCount % 50=== 0){
       obj = createSprite (1600,Math.round(random(630,800)));
       obj.addImage(o);
       obj.velocityX = -(9 + 3*score/100);
@@ -184,7 +184,7 @@ function spawn(){
 function spa(){
 
 
-    if(frameCount %45 === 0){
+    if(frameCount %50 === 0){
       obja = createSprite(1600,Math.round(random(30,60)));
       obja.addImage(oa);
       obja.velocityX = -(9 + 3*score/100);
@@ -203,7 +203,7 @@ function spa(){
 
 function iaminvisible(){
 
-  if(frameCount %45=== 0){
+  if(frameCount %50=== 0){
     invi=createSprite(1600,300,20,1000);
     invi.velocityX = -(9 + 3*score/100);
     invi.visible=false;
