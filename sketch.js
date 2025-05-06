@@ -9,9 +9,9 @@ var fontRegular
 
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+     createCanvas(displayWidth, displayHeight);
 
-  bird= createSprite(200,500);
+     bird= createSprite(200,500);
      bird.addAnimation("staty",birdst)
      bird.addAnimation("walk",birdm);
      bird.scale = 0.5;
